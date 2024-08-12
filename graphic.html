@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic/Motion Design</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="images/goat.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5fbc25396.js" crossorigin="anonymous"></script>
+    <link href="css/underconstruction.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="off-screen">
+            <li><a href="#skipnav" class="skip-link">Skip to Navigation</a></li>
+            <li><a href="#skipmain" class="skip-link">Skip to Main Content</a></li>
+        </ul>
+        <div class="topbar"></div>
+        <header>
+            <div class="logo">
+                <p><a href="index.html"><img src="images/goatmotionlogo.png" alt="mainlogo" class="logosize"></a></p>
+            </div>
+            <nav class="navi" id="skipnav" role="navigation">
+                <div class="flex">
+                    <ul>
+                        <li class="hideOnMobile"><a href="index.html" class="home">Home</a></li>
+                        <li class="hideOnMobile"><a href="index.html#prt" class="port">Portfolio</a></li>
+                        <li class="hideOnMobile"><a href="index.html#serv" class="serv">Services</a></li>
+                        <li class="hideOnMobile"><a href="about.html" class="abt">About</a></li>
+                        <li class="hideOnMobile"><a href="contact.html" class="cont">Contact Us</a></li>
+                        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26" style="fill:#ffffff"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="sidebar">
+                        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26" style="fill:#ffffff"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                        <li><a href="index.html" class="home">Home</a></li>
+                        <li><a href="index.html#prt" class="port">Portfolio</a></li>
+                        <li><a href="index.html#serv" class="serv">Services</a></li>
+                        <li><a href="about.html" class="abt">About</a></li>
+                        <li><a href="contact.html" class="cont">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="grad"></div>
+        <main role="main">
+            <section>
+                <div class="bigcon">
+                    <div class="parent">
+                        <div class="child">
+                            <img src="images/Constructionbanner.png" alt="aboutimage">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="aboutcontent" id="skipmain">
+                <h1>Graphic/Motion Design</h1>
+                <div class="aboutflex">
+                    <img src="images/Construction.png" alt="about-main-image" class="displaypic">
+                </div>
+            </section>
+            <div class="contentwrapper">
+                <h1>FAQs</h1>
+                <div class="quescont">
+                    <p>How can I stay updated with your latest news and projects?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+                <hr class="line">
+                <div class="quescont">
+                    <p>How can I view examples of your previous work?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+                <hr class="line">
+                <div class="quescont">
+                    <p>What sets your studio apart from others?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+                <hr class="line">
+                <div class="quescont">
+                    <p>Do you offer post-production services?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                 </div>
+                <hr class="line">
+                <div class="quescont">
+                    <p>Can you customize your services to fit my specific project needs?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+                <hr class="line">
+                <div class="quescont">
+                    <p>How can I request a quote for a project?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+                <hr class="line">
+                <div class="quescont">
+                    <p>What services do you offer?</p>
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
+                <hr class="line">
+            </div>
+        </main>    
+        <footer>
+            <div class="foot">
+                <div>
+                <a href="index.html"><img src="images/footerlogo.png" alt="footerlogo" class="footerlogo"></a>
+                <p>From Concept to Creation, Excellence Delivered!</p>
+                </div>
+                <div>
+                    <h1>Contact Information</h1>
+                    <h2><i class="fa-solid fa-envelope"></i>+1 (343) 875 5652</h2>
+                    <h2><i class="fa-solid fa-phone"></i>sing2293@algonquinlive.com</h2>
+                </div>
+                <div>
+                    <h1>Quick Links</h1>
+                    <a href="index.html#prt"><h2>Portfolio</h2></a>
+                    <a href="index.html#serv"><h2>Services</h2></a>
+                    <a href="about.html"><h2>About Us</h2></a>
+                    <a href="contact.html"><h2>Contact Us</h2></a>
+                </div>
+                <div>
+                    <h1>Follow Us</h1>
+                    <div class="socials">
+                        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebookicon"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="images/insta.png" alt="instagramicon"></a>
+                        <a href="https://www.x.com" target="_blank"><img src="images/x.png" alt="twittericon"></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="images/youtube.png" alt="youtubeicon"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Goat Motion Studios. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
