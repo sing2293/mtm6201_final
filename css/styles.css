@@ -572,6 +572,9 @@ footer .copyright {
         width: auto;
         height: 25px;
     }
+    .lc {
+        display: none;
+    }
     .brands h3 {
         font-weight: bolder;
         font-size: 2rem;
@@ -799,6 +802,12 @@ footer .copyright {
     .formargin {
         width: auto;
         height: 20px;
+    }
+    .lb {
+        display: none;
+    }
+    .lc {
+        display: none;
     }
     .brands h3 {
         font-weight: bolder;
